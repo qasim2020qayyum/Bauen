@@ -1,0 +1,91 @@
+.service {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    &__sec-div {
+        &-1 {
+            height: 32.9rem;
+            width: 34.9rem;
+            position: absolute;
+            left: 30px;
+            text-align: center;
+            &:hover {
+                background-color: $color-grey-3;
+            }
+        }
+        &-2 {
+            height: 32.9rem;
+            width: 34.9rem;
+            position: absolute;
+            left: 41.5rem;
+            text-align: center;
+            &:hover {
+                background-color: $color-grey-3;
+            }
+        }
+        &-3 {
+            height: 32.9rem;
+            width: 34.9rem;
+            position: absolute;
+            left: 80rem;
+            text-align: center;
+            &:hover {
+                background-color: $color-grey-3;
+            }
+        }
+    }
+    &__box {
+        width: 28.9rem;
+        height: 26.9rem;
+        margin-left: 29px;
+        margin-top: 31px;
+        text-align: left;
+        background-color: transparent;
+    }
+    &__icon {
+        width: 6rem;
+        height: 4.2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    &__heading {
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-top: 17px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    &__line {
+        height: 1px;
+        width: 100%;
+        background-color: $color-light-brown;
+        margin-top: 17px;
+        transition: all 0.4s;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.75em;
+        color: #999;
+        margin-top: 1rem;
+    }
+    &__num {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "Oswald", sans-serif;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        color: transparent;
+        -webkit-text-stroke: 1px $color-light-brown;
+        line-height: 1.6rem;
+    }
+}
+.service-text:hover ~ .service__line {
+    width: 100%;
+}
+.service__sec-div-2:hover ~ .service__num {
+    -webkit-text-stroke: 1px $color-light-brown;
+}

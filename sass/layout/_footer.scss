@@ -1,0 +1,20 @@
+.footer{
+    height:45rem;
+    width:100%;
+    position: relative;
+    &__parallex{
+        height:45rem;
+        width:100%;
+        background-image:url(/img/banner2.jpg);
+        background-attachment: fixed;
+        background-size:cover ;
+    }
+    &__review{
+        height:39.1rem;
+        width:44.5rem;
+        position: absolute;
+        background-color: $color-grey-3;
+        top:11rem;
+        left:51%;
+    }
+}

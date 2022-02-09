@@ -1,0 +1,170 @@
+.header{
+    height:61.7rem;
+    width:100%;
+    position:relative;
+    background-color: $color-grey;
+    &__image-sec{
+        position: absolute;
+        text-align: right;
+        top: 0;
+        left: 12%;
+        height: 100%;
+        width: 88%;
+        background-size: cover;
+        background-position: center;
+        background-image:  linear-gradient(rgba(14, 14, 15, 0.52), 
+        rgba(0, 0, 0, 0.53)) , url("../img/banner2.jpg");
+        &-ul{
+            height:4rem;
+            position: absolute;
+            left:40%;
+            top:5rem;
+            &-li{
+                font-size: 1.8rem;
+                color:$color-white;
+                float:left;
+                font-family: 'Oswald', sans-serif;
+                list-style: none;
+                font-weight: 300;
+                padding-left: 2.5rem;
+                letter-spacing: 2.5px;
+                transition:all .4s;
+                cursor: pointer;
+                &:hover{
+                    color:$color-light-brown;   
+                }
+                &-head{
+                    color:$color-light-brown;
+                }
+            }
+        }
+    }
+    &__heading-sec{
+        height:40rem;
+        width:100%;
+        text-align: right;
+        top:14rem;
+        position: absolute;
+        &-main{
+            font-size: 5rem;
+            letter-spacing: .9rem;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            width: 65rem;
+            margin-left: 56rem;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        &-text{
+            color:$color-white;
+            font-size: 1.5rem;
+            margin-top:3rem;
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 2.5px;
+            width:43rem;
+            line-height: 3rem;;
+            margin-left: 78rem;
+        }
+    }
+    &__button{
+        height:4rem;
+        width:19rem;
+        background-color: transparent;
+        color:white;
+        text-align: center;
+        padding-top:9px;
+        font-weight: lighter;
+        text-decoration: none;
+        font-size: 1.5rem;
+        letter-spacing: 7px;
+        position: absolute;
+        top:29rem;
+        right:6.3rem;
+        &:hover{
+           background-color: $color-light-brown;
+            
+        }
+
+    }
+    &__logo-sec{
+      height:21rem;
+        background: $color-grey;
+        width:21%;
+        position: absolute;
+        z-index: 5;
+        text-align: center;
+        &-img{
+            height:5.9rem;
+            width:7.5rem;
+            margin-top:3rem;
+        }
+        &-heading{
+            font-size: 4.5rem;
+            color:$color-light-brown;
+            font-weight: 300;
+            letter-spacing: 5px;
+            &-sub{
+                font-size: 1.2rem;
+                color:$color-grey-2;
+                letter-spacing:3px;
+            }
+        }
+    }
+    &__icon-sec{
+        height: 5rem;
+        width: 11rem;
+        position: absolute;
+        top: 85%;
+        left: 17%;
+    }
+    &__social{
+        height: 24rem;
+        width: 6rem;
+        position: absolute;
+        top: 35rem;
+        left: 4rem;
+
+        
+    }
+}
+
+.fa-chevron-left{
+   @include icon;
+    &:hover{
+        opacity:1
+    }
+}
+.fa-chevron-right{
+   @include icon;
+    left:6rem;
+        &:hover{
+        opacity:1
+    }
+}
+.fa-pinterest-p{
+  @include social;
+    &:hover{
+        opacity:1
+    }
+}
+.fa-facebook-f{
+  @include social;
+  top:6rem;
+    &:hover{
+        opacity:1
+    }
+}
+.fa-twitter{
+  @include social;
+  top:12rem;
+    &:hover{
+        opacity:1
+    }
+}
+.fa-instagram{
+  @include social;
+  top:18rem;
+    &:hover{
+        opacity:1
+    }
+}

@@ -1,0 +1,20 @@
+
+
+
+@import "./abstract/mixin";
+@import "./abstract/variables";
+    //abstract files//
+
+@import "./base/base";
+    // base file
+    
+@import "./components/about";
+@import "./components/btn";
+@import "./components/contact";
+@import "./components/news";
+@import "./components/project";
+@import "./components/service";
+
+@import "./layout/footer";
+@import "./layout/header";
+    //layout files//

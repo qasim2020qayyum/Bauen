@@ -1,0 +1,31 @@
+@mixin icon{
+    height: 5rem;
+    border: solid #B19777;
+    background-color: transparent;
+    color: #B19777;
+    text-align: center;
+    width: 5rem;
+    border-radius: 65px;
+    font-size: 2rem;
+    padding-top: 14px;
+    position: absolute;
+    transition: all .3s;
+    opacity: .3;
+    cursor: pointer;
+}
+@mixin social{
+    height: 5rem;
+    border: solid #B19777;
+    background-color: transparent;
+    color: #B19777;
+    text-align: center;
+    width: 5rem;
+    border-radius: 65px;
+    font-size: 2rem;
+    padding-top: 14px;
+    position: absolute;
+    left:3px;
+    opacity: .3;
+    cursor: pointer;
+    transition: all .3s;
+}
